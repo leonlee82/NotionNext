@@ -1,6 +1,6 @@
 module.exports = {
-  SPOILER_TEXT_PREFIX = process.env.NEXT_PUBLIC_SPOILER_TEXT_PREFIX || "",
-  SPOILER_TEXT_SUFFIX = process.env.NEXT_PUBLIC_SPOILER_TEXT_SUFFIX || "",
+  SPOILER_TEXT_PREFIX: process.env.NEXT_PUBLIC_SPOILER_TEXT_PREFIX || '',
+  SPOILER_TEXT_SUFFIX: process.env.NEXT_PUBLIC_SPOILER_TEXT_SUFFIX || '',
 
-  SPOILER_TEXT_TRIGGER = process.env.NEXT_PUBLIC_SPOILER_TEXT_TRIGGER || "" // hover或者click, hover对应悬浮显示，click对应telegram样式，单击显示
+  SPOILER_TEXT_TRIGGER: process.env.NEXT_PUBLIC_SPOILER_TEXT_TRIGGER || '' // hover或者click, hover对应悬浮显示，click对应telegram样式，单击显示
 }
